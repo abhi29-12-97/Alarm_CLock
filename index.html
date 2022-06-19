@@ -14,17 +14,23 @@
         <!-- Set alarm form which takes hour,minute and seconds as input and set the value -->
         <div id="set-alarm">
            <form action="">
+               <!-- hour input -->
             <p class="inputs"><input type="number" max="23" min="00" id="hour" required></p>
+            
             <p class="colons">:</p>
+             <!-- minutes input -->
             <p class="inputs"><input type="number" max="59" min="00" id="minute" required></p>
             <p  class="colons">:</p>
+             <!-- second input -->
             <p class="inputs"><input type="number" max="59" min="00" id="seconds" required></p>
+             <!-- AM/PM input -->
             <p class="inputs">
                 <select id="timezone">
                     <option value="AM">AM</option>
                     <option value="PM">PM</option>
                   </select>
             </p>
+             <!-- submit -->
             <p id="set-button"><input type="submit" value="Set Alarm"></p>
            </form>
             
