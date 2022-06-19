@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARM CLOCK</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <!-- div to show the current timing -->
+        <div id="current-time"><p></p></div>
+        <!-- Set alarm form which takes hour,minute and seconds as input and set the value -->
+        <div id="set-alarm">
+           <form action="">
+            <p class="inputs"><input type="number" max="23" min="00" id="hour" required></p>
+            <p class="colons">:</p>
+            <p class="inputs"><input type="number" max="59" min="00" id="minute" required></p>
+            <p  class="colons">:</p>
+            <p class="inputs"><input type="number" max="59" min="00" id="seconds" required></p>
+            <p class="inputs">
+                <select id="timezone">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+            </p>
+            <p id="set-button"><input type="submit" value="Set Alarm"></p>
+           </form>
+            
+        </div>
+        <!-- Alarm list div -->
+        <div id="alarm-list">
+            <p>ALARMS</p>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
