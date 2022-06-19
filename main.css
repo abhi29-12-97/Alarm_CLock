@@ -3,14 +3,15 @@ body{
     background-color: bisque;
     font-size: 30px;
     font-weight: 600;
+    background-image: url("/images/185921376-F-56b0062e3df78cf772cb264a.webp");
 }
 /* main alarm section */
 main{
     height: 500px;
     width: 400px;
-    background-color: aquamarine;
+    background-color: rgb(68, 165, 111);
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid;
     margin: auto;
     margin-top: 50px;
 }
@@ -54,6 +55,7 @@ main{
     width: 50px;
     height: 100%;
     background-color: inherit;
+    border: none;
 }
 .colons{
     margin-left: 10px;
@@ -63,6 +65,9 @@ main{
     margin-left: 20px;
     height: 30px;
     width: 40px;
+}
+#set-button input{
+    background-color: inherit;
 }
 
 /* alarm list */
